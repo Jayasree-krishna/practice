@@ -1,0 +1,136 @@
+  .navbar{
+    padding: .8rem;
+
+}
+.navbar-nav li{
+    padding-right: 20px;
+    font-weight: 600;
+
+}
+.nav-link{
+    font-size: 1.1em !important;
+    
+}
+.headermain{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('/home/student/Desktop/web/music/images/artists.jpg');
+        width:100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+  
+        
+      }
+     
+      .live{
+        border-radius: 100%;
+        padding: 20px;
+       
+      }
+    
+
+     
+   .form-col{
+   display: inline-block;
+   }
+   .social a{
+font-size:4em;
+padding:3rem;
+}
+.fa-facebook{
+color:#3b5998;
+}
+.fa-twitter{
+color:#00aced;
+}
+.fa-google-plus{
+color:#dd4b39;
+}
+.fa-instagram{
+color:#517fa4;
+}
+.fa-youtube{
+color:#bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+color:#d5d5d5;
+}
+
+
+ @media (max-width: 576px){
+.social a{
+font-size:2em;
+padding:0.5rem;
+}
+  }
+ @media (max-width: 767.98px){
+ .social a{
+font-size:2em;
+padding:0.5rem;
+}
+ }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+.social a{
+font-size:2em;
+padding:1rem;
+}
+  }
+  
+  @media (min-width: 992px)
+  {
+  
+  }
+      @media(max-width: 575.98px){
+	h1{
+	font-size: 30px;
+        font-weight: 510;
+        color: white;
+    
+      
+            }
+  
+  }
+        @media(min-width: 576px){
+   h1{
+	font-size: 40px;
+        font-weight: 510;
+        color: white;
+    
+      
+            }
+ 
+    }
+        @media(min-width: 768px){
+        h1{
+	font-size: 60px;
+        font-weight: 510;
+        color: white;
+    
+      
+            }
+ 
+        }
+        @media(min-width: 992px){
+        h1{
+	font-size: 60px;
+        font-weight: 510;
+        color: white;
+    
+      
+            }
+        }
+        @media(min-width: 1200px){
+      	h1{
+	font-size: 90px;
+        font-weight: 510;
+        color: white;
+    
+      
+            }
+   
+         }
